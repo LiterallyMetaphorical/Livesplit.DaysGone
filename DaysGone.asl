@@ -59,39 +59,39 @@ startup
 // Dictionary containing all of the available objectives/quest states that can be split on	
 	vars.objectivename = new Dictionary<string,string>
 	{
-        {"WE'LL MAKE IT QUICK","Finished the motorcycle ride"}, // Moves from He Can't Be Far - We'll Make It Quick	
-        {"BAD WAY TO GO OUT","Unsure, need more info"}, // Moves from We'll Make It Quick - Bad Way To Go Out
-        {"YOU GOT A DEATH WISH","Unsure, need more info"}, // Moves from Bad Way To Go Out - You Got A Deathwish
-        {"DRIFTERS ON THE MOUNTAIN","Unsure, need more info"}, // Moves from You Got A Deathwish - Drifters on the Mountain
-        {"BUGGED THE HELL OUT","Unsure, need more info"}, // Drifters on the Mountain - Bugged The Hell Out
-        {"NO STARVING PATRIOTS","Unsure, need more info"}, // Moves from Drifters on the Mountain - No Starving Patriots
-        {"SOUNDED LIKE ENGINES","Unsure, need more info"}, // Moves from No Starving Patriots - Sounded Like Engines
-        {"SMOKE ON THE MOUNTAIN","Unsure, need more info"}, // Moves from You Got A Deathwish - Smoke On The Mountain
-        {"CLEAR OUT THOSE NESTS","Unsure, need more info"}, // Moves from Smoke On The Mountain - Clear Out Those Nests
+        {"WE'LL MAKE IT QUICK","We'll Make It Quick	 - Finished the motorcycle ride"}, // Moves from He Can't Be Far - We'll Make It Quick	
+        {"BAD WAY TO GO OUT","Bad Way To Go Out - Unsure, need more info"}, // Moves from We'll Make It Quick - Bad Way To Go Out
+        {"YOU GOT A DEATH WISH","You Got A Deathwish - Unsure, need more info"}, // Moves from Bad Way To Go Out - You Got A Deathwish
+        {"DRIFTERS ON THE MOUNTAIN","Drifters on the Mountain - Unsure, need more info"}, // Moves from You Got A Deathwish - Drifters on the Mountain
+        {"BUGGED THE HELL OUT","Bugged The Hell Out - Unsure, need more info"}, // Drifters on the Mountain - Bugged The Hell Out
+        {"NO STARVING PATRIOTS","No Starving Patriots - Unsure, need more info"}, // Moves from Drifters on the Mountain - No Starving Patriots
+        {"SOUNDED LIKE ENGINES","Sounded Like Engines - Unsure, need more info"}, // Moves from No Starving Patriots - Sounded Like Engines
+        {"SMOKE ON THE MOUNTAIN","Smoke On The Mountain - Unsure, need more info"}, // Moves from You Got A Deathwish - Smoke On The Mountain
+        {"CLEAR OUT THOSE NESTS","Clear Out Those Nests - Unsure, need more info"}, // Moves from Smoke On The Mountain - Clear Out Those Nests
         //NOTE that NESTS probably gets called a lot, may not be good to split on
-        {"OUT OF NOWHERE","Unsure, need more info"}, // Moves from Clear Out Those Nests - Out Of Nowhere
-        {"THEYRE NOT SLEEPING","Unsure, need more info"}, // Moves from Clear Out Those Nests - They're Not Sleeping
-        {"PRICE ON YOUR HEAD","Unsure, need more info"}, // Moves from They're Not Sleeping - Price On Your Head
-        {"DELIVER TO COPELAND","Unsure, need more info"}, // Moves from Price On Your Head - Deliver To Copeland
-        {"DRUGGED OUTTA HIS MIND","Unsure, need more info"}, // Moves from Price On Your Head - Drugged Outta His Mind
-        {"WHAT DID YOU DO?","Unsure, need more info"}, // Moves from Drugged Outta His Mind - What Did You Do?
-        {"SEARCHING FOR SOMETHING","Unsure, need more info"}, // Moves from What Did You Do? - Searching For Something
-        {"IT'S NOT SAFE HERE","Unsure, need more info"}, // Moves from Searching For Something - It's Not Safe Here
-        {"LOTS OF SICK PEOPLE","Unsure, need more info"}, // Moves from It's Not Safe Here - Lots Of Sick People
-        {"IT'S A RIFLE, NOT A GUN","Unsure, need more info"}, // Moves from Lots Of Sick People - It's A Rifle, Not A Gun
-        {"MAKING CONTACT","Unsure, need more info"}, // Moves from It's A Rifle, Not A Gun - Making Contact
-        {"WE'RE GETTING LOW ON MEAT","Unsure, need more info"}, // Moves from Making Contact - We're Getting Low on Meat
-        {"THEY WON'T LET ME LEAVE","Unsure, need more info"}, // Moves from We're Getting Low on Meat - They Won't Let Me Leave
-        {"THE REST OF OUR DRUGS","Unsure, need more info"}, // Moves from They Won't Let Me Leave - The Rest of Our Drugs
-        {"I BROUGHT YOU SOMETHING","Unsure, need more info"}, // Moves from The Rest of Our Drugs - I Brought You Something
-        {"I'VE PULLED WEEDS BEFORE","Unsure, need more info"}, // Moves from I Brought You Something - I've Pulled Weeds Before
-        {"GIVE ME A COUPLE DAYS","Unsure, need more info"}, // Moves from I've Pulled Weeds Before - Give Me a Couple of Days
-        {"WHAT HAVE THEY DONE","Unsure, need more info"}, // Moves from Give Me a Couple of Days - What Have They Done
-        {"NO ONE SAW IT COMING","Unsure, need more info"}, // Moves from What Have They Done - No One Saw It Coming
-        {"NOT GONNA KILL ANYONE","Unsure, need more info"}, // Moves from No One Saw It Coming - Not Gonna Kill Anyone
-        {"NO PLACE ELSE TO GO","Unsure, need more info"}, // Moves from Not Gonna Kill Anyone - No Place Else To Go
-        {"WE'VE ALL DONE THINGS","Unsure, need more info"}, // Moves from No Place Else To Go - We've All Done Things
-        {"SHERMAN'S CAMP IS CRAWLIN","Unsure, need more info"}, // Moves from No Place Else To Go - Sherman's Camp Is Crawling OR ends Lost Lake run
+        {"OUT OF NOWHERE","Out Of Nowhere - Unsure, need more info"}, // Moves from Clear Out Those Nests - Out Of Nowhere
+        {"THEYRE NOT SLEEPING","They're Not Sleeping - Unsure, need more info"}, // Moves from Clear Out Those Nests - They're Not Sleeping
+        {"PRICE ON YOUR HEAD","Price On Your Head - Unsure, need more info"}, // Moves from They're Not Sleeping - Price On Your Head
+        {"DELIVER TO COPELAND","Deliver To Copeland - Unsure, need more info"}, // Moves from Price On Your Head - Deliver To Copeland
+        {"DRUGGED OUTTA HIS MIND","Drugged Outta His Mind - Unsure, need more info"}, // Moves from Price On Your Head - Drugged Outta His Mind
+        {"WHAT DID YOU DO?","What Did You Do? - Unsure, need more info"}, // Moves from Drugged Outta His Mind - What Did You Do?
+        {"SEARCHING FOR SOMETHING","Searching For Something - Unsure, need more info"}, // Moves from What Did You Do? - Searching For Something
+        {"IT'S NOT SAFE HERE","It's Not Safe Here - Unsure, need more info"}, // Moves from Searching For Something - It's Not Safe Here
+        {"LOTS OF SICK PEOPLE","Lots Of Sick People - Unsure, need more info"}, // Moves from It's Not Safe Here - Lots Of Sick People
+        {"IT'S A RIFLE, NOT A GUN","It's A Rifle, Not A Gun - Unsure, need more info"}, // Moves from Lots Of Sick People - It's A Rifle, Not A Gun
+        {"MAKING CONTACT","Making Contact - Unsure, need more info"}, // Moves from It's A Rifle, Not A Gun - Making Contact
+        {"WE'RE GETTING LOW ON MEAT","We're Getting Low on Meat - Unsure, need more info"}, // Moves from Making Contact - We're Getting Low on Meat
+        {"THEY WON'T LET ME LEAVE","They Won't Let Me Leave - Unsure, need more info"}, // Moves from We're Getting Low on Meat - They Won't Let Me Leave
+        {"THE REST OF OUR DRUGS","The Rest of Our Drugs - Unsure, need more info"}, // Moves from They Won't Let Me Leave - The Rest of Our Drugs
+        {"I BROUGHT YOU SOMETHING","I Brought You Something - Unsure, need more info"}, // Moves from The Rest of Our Drugs - I Brought You Something
+        {"I'VE PULLED WEEDS BEFORE","I've Pulled Weeds Before - Unsure, need more info"}, // Moves from I Brought You Something - I've Pulled Weeds Before
+        {"GIVE ME A COUPLE DAYS","Give Me a Couple of Days - Unsure, need more info"}, // Moves from I've Pulled Weeds Before - Give Me a Couple of Days
+        {"WHAT HAVE THEY DONE","What Have They Done - Unsure, need more info"}, // Moves from Give Me a Couple of Days - What Have They Done
+        {"NO ONE SAW IT COMING","No One Saw It Coming - Unsure, need more info"}, // Moves from What Have They Done - No One Saw It Coming
+        {"NOT GONNA KILL ANYONE","Not Gonna Kill Anyone - Unsure, need more info"}, // Moves from No One Saw It Coming - Not Gonna Kill Anyone
+        {"NO PLACE ELSE TO GO","No Place Else To Go - Unsure, need more info"}, // Moves from Not Gonna Kill Anyone - No Place Else To Go
+        {"WE'VE ALL DONE THINGS","We've All Done Things - Unsure, need more info"}, // Moves from No Place Else To Go - We've All Done Things
+        {"SHERMAN'S CAMP IS CRAWLIN","Sherman's Camp Is Crawling OR ends Lost Lake run - Unsure, need more info"}, // Moves from No Place Else To Go - Sherman's Camp Is Crawling OR ends Lost Lake run
 	};
 	
 // split on specified objectives
