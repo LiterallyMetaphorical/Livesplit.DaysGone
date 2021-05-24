@@ -70,9 +70,8 @@ startup
         {"CLEAR OUT THOSE NESTS","Clear Out Those Nests - Unsure, need more info"}, // Moves from Smoke On The Mountain - Clear Out Those Nests
         //NOTE that NESTS probably gets called a lot, may not be good to split on
         {"OUT OF NOWHERE","Out Of Nowhere - Unsure, need more info"}, // Moves from Clear Out Those Nests - Out Of Nowhere
-        {"THEYRE NOT SLEEPING","They're Not Sleeping - Unsure, need more info"}, // Moves from Clear Out Those Nests - They're Not Sleeping
+        {"THEY'RE NOT SLEEPING","They're Not Sleeping - Unsure, need more info"}, // Moves from Clear Out Those Nests - They're Not Sleeping
         {"PRICE ON YOUR HEAD","Price On Your Head - Unsure, need more info"}, // Moves from They're Not Sleeping - Price On Your Head
-        {"DELIVER TO COPELAND","Deliver To Copeland - Unsure, need more info"}, // Moves from Price On Your Head - Deliver To Copeland
         {"DRUGGED OUTTA HIS MIND","Drugged Outta His Mind - Unsure, need more info"}, // Moves from Price On Your Head - Drugged Outta His Mind
         {"WHAT DID YOU DO?","What Did You Do? - Unsure, need more info"}, // Moves from Drugged Outta His Mind - What Did You Do?
         {"SEARCHING FOR SOMETHING","Searching For Something - Unsure, need more info"}, // Moves from What Did You Do? - Searching For Something
@@ -106,7 +105,7 @@ start
 {
     return (current.menuState == 1 && current.loading == 255);
 }
-
+79
 update
 {
     //tells isLoading to look for the value of 0
