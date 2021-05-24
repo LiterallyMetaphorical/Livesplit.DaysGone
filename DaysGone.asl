@@ -63,7 +63,7 @@ startup
         {"BAD WAY TO GO OUT","Bad Way To Go Out - Finished combat tutorial"}, // Moves from We'll Make It Quick - Bad Way To Go Out
         {"YOU GOT A DEATH WISH","You Got A Deathwish - Finished tunnel combat section"}, // Moves from Bad Way To Go Out - You Got A Deathwish
         {"DRIFTERS ON THE MOUNTAIN","Drifters on the Mountain - Reached safehouse for the 1st time"}, // Moves from You Got A Deathwish - Drifters on the Mountain
-        {"BUGGED THE HELL OUT","Finished at Copelands camp for the 1st time"}, // Drifters on the Mountain - Bugged The Hell Out
+        {"BUGGED THE HELL OUT","Bugged The Hell Out - Finished at Copelands camp for the 1st time"}, // Drifters on the Mountain - Bugged The Hell Out
         {"NO STARVING PATRIOTS","No Starving Patriots - Unsure, need more info"}, // Moves from Drifters on the Mountain - No Starving Patriots
         {"SOUNDED LIKE ENGINES","Sounded Like Engines - Unsure, need more info"}, // Moves from No Starving Patriots - Sounded Like Engines
         {"SMOKE ON THE MOUNTAIN","Smoke On The Mountain - Unsure, need more info"}, // Moves from You Got A Deathwish - Smoke On The Mountain
