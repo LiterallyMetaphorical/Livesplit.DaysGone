@@ -59,7 +59,7 @@ startup
 // Dictionary containing all of the available objectives/quest states that can be split on	
 	vars.objectivename = new Dictionary<string,string>
 	{
-        {"WE'LL MAKE IT QUICK","We'll Make It Quick	 - Finished the motorcycle ride"}, // Moves from He Can't Be Far - We'll Make It Quick	
+        {"WE'LL MAKE IT QUICK","We'll Make It Quick - Finished the motorcycle ride"}, // Moves from He Can't Be Far - We'll Make It Quick	
         {"BAD WAY TO GO OUT","Bad Way To Go Out - Finished combat tutorial"}, // Moves from We'll Make It Quick - Bad Way To Go Out
         {"YOU GOT A DEATH WISH","You Got A Deathwish - Finished tunnel combat section"}, // Moves from Bad Way To Go Out - You Got A Deathwish
         {"DRIFTERS ON THE MOUNTAIN","Drifters on the Mountain - Reached safehouse for the 1st time"}, // Moves from You Got A Deathwish - Drifters on the Mountain
@@ -105,7 +105,7 @@ start
 {
     return (current.menuState == 1 && current.loading == 255);
 }
-79
+
 update
 {
     //tells isLoading to look for the value of 0
