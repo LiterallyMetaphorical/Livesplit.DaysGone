@@ -98,14 +98,14 @@ startup
         {"PLAYING ALL NIGHT","Playing All Night - Unsure, need more info"},
         {"WITH OTHER MEN'S BLOOD","With Other Men's Blood - Unsure, need more info"},
         {"IT'S ON A MISSION","It's On A Mission - Unsure, need more info"},
-        {"RETURN TO IRON MIKE'S CAM","Return To Iron Mike's Cam(p) - NOTE: This logic is later called again after Something To Heal His Soul"}, // This logic is called twice
+        // Return to Iron Mikes Camp is called here, but its called for a side quest potentially a bunch of times so best not to track it
         {"A GODDAMN WAR ZONE","A Goddamn War Zone - Unsure, need more info"},
         {"FLOW LIKE BURIED RIVERS","Flow Like Buried Rivers - Unsure, need more info"},
         {"YOU SEE WHAT THEY DID","You See What They Did - Unsure, need more info"},
         {"DO YOU HAVE MY BACK?","Do You Have My Back? - Unsure, need more info"},
         //The next two splits can be done in either order
-        {"ON HEROD'S BIRTHDAY","On Herod's Birthday - Unsure, need more info"},
         {"I COULD USE A HAND","I Could Use A Hand - Unsure, need more info"},
+        {"ON HEROD'S BIRTHDAY","On Herod's Birthday - Unsure, need more info"},
         {"SEEDS FOR THE SPRING","Seeds For The Spring - Unsure, need more info"},
         {"I GOT A JOB FOR YOU","I Got A Job For You - Unsure, need more info"},
         {"IT COULDN'T BE THAT EASY","It Couldn't Be That Easy - Unsure, need more info"},
@@ -130,7 +130,6 @@ startup
         {"BETTER TO LIGHT ONE CANDL","Better To Light One Candl(e) - Unsure, need more info"},
         {"OUTTA THE DARKNESS","Outta The Darkness - Unsure, need more info"},
         {"SOMETHING TO HEAL HIS SOU","Something To Heal His Sou(l) - Unsure, need more info"},
-        // Return to Iron Mike's Camp is called for a second time here
         {"HAVE IT YOUR WAY","Have It Your Way - Unsure, need more info"},
         {"TRYING TO HELP THE CAMP","Trying To Help The Camp - Unsure, need more info"},
         {"DON'T GET CAUGHT","Don't Get Caught - Unsure, need more info"},
@@ -143,6 +142,15 @@ startup
         {"WITHOUT BEING SEEN","Without Being Seen - Unsure, need more info"},
         {"YOU WON'T BE NEEDING THIS","You Won't Be Needing This - Unsure, need more info"},
         {"NOW THAT'S AN IDEA","Now That's An Idea - Unsure, need more info"},
+        {"THAT NEVER GETS OLD","That Never Gets Old - Unsure, need more info"},
+        {"TIME FOR SOME PAYBACK","Time For Some Payback - Unsure, need more info"},
+        {"I'M GOOD WITH THAT","I'm Good With That - Unsure, need more info"},
+        {"I WAS DISTRACTED","I Was Distracted - Unsure, need more info"},
+        {"WHY AM I HERE?","Why Am I Here? - Unsure, need more info"},
+        {"RIDING NOMAD AGAIN","Riding Nomad Again - Unsure, need more info"},
+        {"MAYDAY! MAYDAY!","Mayday! Mayday! - Unsure, need more info"},
+        {"NOT FROM AROUND HERE","Not From Around Here - Unsure, need more info"},
+        {"WE'RE FIGHTING A WAR","We're Fighting A War - Unsure, need more info"},
 	};
 	
 // split on specified objectives
