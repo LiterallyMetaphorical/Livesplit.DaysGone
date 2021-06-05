@@ -90,7 +90,59 @@ startup
         {"NOT GONNA KILL ANYONE","Not Gonna Kill Anyone - Unsure, need more info"}, // Moves from No One Saw It Coming - Not Gonna Kill Anyone
         {"NO PLACE ELSE TO GO","No Place Else To Go - Unsure, need more info"}, // Moves from Not Gonna Kill Anyone - No Place Else To Go
         {"WE'VE ALL DONE THINGS","We've All Done Things - Unsure, need more info"}, // Moves from No Place Else To Go - We've All Done Things
+        // Start of Diamond Lake
         {"SHERMAN'S CAMP IS CRAWLIN","Sherman's Camp Is Crawling OR ends Lost Lake run - Unsure, need more info"}, // Moves from No Place Else To Go - Sherman's Camp Is Crawling OR ends Lost Lake run
+        {"I NEED YOUR HELP","I Need Your Help - Unsure, need more info"}, // Moves from Sherman's Camp Is Crawling - I Need Your Help
+        {"SEARCHING FOR LISA","Searching For Lisa - Unsure, need more info"},
+        {"NOW YOU SEE IT","Now You See It - Unsure, need more info"},
+        {"PLAYING ALL NIGHT","Playing All Night - Unsure, need more info"},
+        {"WITH OTHER MEN'S BLOOD","With Other Men's Blood - Unsure, need more info"},
+        {"IT'S ON A MISSION","It's On A Mission - Unsure, need more info"},
+        {"RETURN TO IRON MIKE'S CAM","Return To Iron Mike's Cam(p) - NOTE: This logic is later called again after Something To Heal His Soul"}, // This logic is called twice
+        {"A GODDAMN WAR ZONE","A Goddamn War Zone - Unsure, need more info"},
+        {"FLOW LIKE BURIED RIVERS","Flow Like Buried Rivers - Unsure, need more info"},
+        {"YOU SEE WHAT THEY DID","You See What They Did - Unsure, need more info"},
+        {"DO YOU HAVE MY BACK?","Do You Have My Back? - Unsure, need more info"},
+        //The next two splits can be done in either order
+        {"ON HEROD'S BIRTHDAY","On Herod's Birthday - Unsure, need more info"},
+        {"I COULD USE A HAND","I Could Use A Hand - Unsure, need more info"},
+        {"SEEDS FOR THE SPRING","Seeds For The Spring - Unsure, need more info"},
+        {"I GOT A JOB FOR YOU","I Got A Job For You - Unsure, need more info"},
+        {"IT COULDN'T BE THAT EASY","It Couldn't Be That Easy - Unsure, need more info"},
+        {"THEY DON'T LIKE VISITORS","They Don't Like Visitors - Unsure, need more info"},
+        {"THAT'S WHEN I KNEW","That's When I Knew - Unsure, need more info"},
+        {"IT'S A LONG STORY","It's A Long Story - Unsure, need more info"},
+        {"MOMENTS OF LUCIDITY","Moments of Lucidity - Unsure, need more info"},
+        {"RIDING THE OPEN ROAD","Riding The Open Road - Unsure, need more info"},
+        {"THE ONLY ONE HE'S GOT","The Only One He's Got - Unsure, need more info"},
+        {"I GOT WORK TO DO","I Got Work To Do - Unsure, need more info"},
+        {"SOME KINDA FREAK EXPERT","Some Kinda Freak Expert - Unsure, need more info"},
+        {"LINES NOT CROSSED","Lines Not Crossed - Unsure, need more info"},
+        {"WE'RE NOT HIDING","We're Not Hiding - Unsure, need more info"},
+        {"THAT'S HIS MISTAKE","That's His Mistake - Unsure, need more info"},
+        {"DRINKING HIMSELF TO DEATH","Drinking Himself To Death - Unsure, need more info"},
+        {"ABOUT BOOZER'S ARM","About Boozer's Arm - Unsure, need more info"},
+        {"WAS THIS A GOOD IDEA?","Was This A Good Idea? - Unsure, need more info"},
+        {"YOU TWISTED MY ARM","You Twisted My Arm - Unsure, need more info"},
+        {"YOU COULD HAVE DONE MORE","You Could Have Done More - Unsure, need more info"},
+        {"NOT LIKE I GOT A CHOICE","Not Like I Got A Choice - Unsure, need more info"},
+        {"NO BEGINNING AND NO END","No Beginning And No End - Unsure, need more info"},
+        {"BETTER TO LIGHT ONE CANDL","Better To Light One Candl(e) - Unsure, need more info"},
+        {"OUTTA THE DARKNESS","Outta The Darkness - Unsure, need more info"},
+        {"SOMETHING TO HEAL HIS SOU","Something To Heal His Sou(l) - Unsure, need more info"},
+        // Return to Iron Mike's Camp is called for a second time here
+        {"HAVE IT YOUR WAY","Have It Your Way - Unsure, need more info"},
+        {"TRYING TO HELP THE CAMP","Trying To Help The Camp - Unsure, need more info"},
+        {"DON'T GET CAUGHT","Don't Get Caught - Unsure, need more info"},
+        {"THEY DON'T FEEL PAIN","They Don't Feel Pain - Unsure, need more info"},
+        {"IT WAS THE ONLY WAY","It Was The Only Way - Unsure, need more info"},
+        {"I KEPT MY NAME","I Kept My Name - Unsure, need more info"},
+        {"SHOULD HAVE SEEN IT COMIN","Should Have Seen It Comin - Unsure, need more info"},
+        {"RIDERS SENT TO FIND YOU","Riders Sent To Find You - Unsure, need more info"},
+        {"THEY WILL NEVER STOP","They Will Never Stop - Unsure, need more info"},
+        {"WITHOUT BEING SEEN","Without Being Seen - Unsure, need more info"},
+        {"YOU WON'T BE NEEDING THIS","You Won't Be Needing This - Unsure, need more info"},
+        {"NOW THAT'S AN IDEA","Now That's An Idea - Unsure, need more info"},
 	};
 	
 // split on specified objectives
