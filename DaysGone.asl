@@ -104,7 +104,6 @@ startup
         {"YOU SEE WHAT THEY DID","You See What They Did - Unsure, need more info"},
         {"DO YOU HAVE MY BACK?","Do You Have My Back? - Unsure, need more info"},
         //The next two splits can be done in either order
-        {"I COULD USE A HAND","I Could Use A Hand - Unsure, need more info"},
         {"ON HEROD'S BIRTHDAY","On Herod's Birthday - Unsure, need more info"},
         {"SEEDS FOR THE SPRING","Seeds For The Spring - Unsure, need more info"},
         {"I GOT A JOB FOR YOU","I Got A Job For You - Unsure, need more info"},
@@ -114,7 +113,6 @@ startup
         {"IT'S A LONG STORY","It's A Long Story - Unsure, need more info"},
         {"MOMENTS OF LUCIDITY","Moments of Lucidity - Unsure, need more info"},
         {"RIDING THE OPEN ROAD","Riding The Open Road - Unsure, need more info"},
-        {"THE ONLY ONE HE'S GOT","The Only One He's Got - Unsure, need more info"},
         {"I GOT WORK TO DO","I Got Work To Do - Unsure, need more info"},
         {"SOME KINDA FREAK EXPERT","Some Kinda Freak Expert - Unsure, need more info"},
         {"LINES NOT CROSSED","Lines Not Crossed - Unsure, need more info"},
@@ -131,7 +129,6 @@ startup
         {"OUTTA THE DARKNESS","Outta The Darkness - Unsure, need more info"},
         {"SOMETHING TO HEAL HIS SOU","Something To Heal His Sou(l) - Unsure, need more info"},
         {"HAVE IT YOUR WAY","Have It Your Way - Unsure, need more info"},
-        {"TRYING TO HELP THE CAMP","Trying To Help The Camp - Unsure, need more info"},
         {"DON'T GET CAUGHT","Don't Get Caught - Unsure, need more info"},
         {"THEY DON'T FEEL PAIN","They Don't Feel Pain - Unsure, need more info"},
         {"IT WAS THE ONLY WAY","It Was The Only Way - Unsure, need more info"},
