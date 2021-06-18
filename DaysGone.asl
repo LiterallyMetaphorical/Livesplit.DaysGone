@@ -1,5 +1,7 @@
 // Days Gone load remover and autosplitter - pauses on loading screens, autostarts on first cutscene, autosplits on listed objectives
 // Thanks to Ero for helping me with getting the autostart to start at 0.00
+// Thanks to Matt and Kevin for being my guinea pigs, and to Hess for getting me into Days Gone
+// Here's to this asl never breaking ever because I don't want to update it pls lmao
 
 state("DaysGone")
 {
