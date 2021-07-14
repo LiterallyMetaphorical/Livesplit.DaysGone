@@ -1,13 +1,16 @@
 // Days Gone load remover and autosplitter - pauses on loading screens, autostarts on first cutscene, autosplits on listed objectives
 // Thanks to Ero for helping me with getting the autostart to start at 0.00
-// Thanks to Matt and Kevin for being my guinea pigs, and to Hess for getting me into Days Gone
-// Here's to this asl never breaking ever because I don't want to update it pls lmao
 
 state("DaysGone")
 {
-    byte loading : 0x4257390, 0x98, 0x9C8, 0x1E0, 0x190;
-    string50 objective : 0x42906B8, 0x28, 0xBA0, 0x210, 0;
-    byte menuState : 0x449D27C;
+//  Keeping these old addresses just incase new patch is slower
+//  byte loading : 0x4257390, 0x98, 0x9C8, 0x1E0, 0x190;
+//  string50 objective : 0x42906B8, 0x28, 0xBA0, 0x210, 0;
+//  byte menuState : 0x449D27C;
+
+    byte loading : 0x0452B710, 0x1E4;
+    string 50 objective : 0x0428C6F8, 0x28, 0xBA0, 0x210, 0x0;
+    byte menuState : 0x449763C;
 }
 
 init
@@ -93,17 +96,19 @@ startup
         {"NO PLACE ELSE TO GO","No Place Else To Go - Unsure, need more info"}, // Moves from Not Gonna Kill Anyone - No Place Else To Go
         {"WE'VE ALL DONE THINGS","We've All Done Things - Unsure, need more info"}, // Moves from No Place Else To Go - We've All Done Things
         // Start of Diamond Lake
-        {"SHERMAN'S CAMP IS CRAWLIN","Sherman's Camp Is Crawling OR ends Lost Lake run - Unsure, need more info"}, // Final split for Lost Lake
-        {"I NEED YOUR HELP","I Need Your Help - Unsure, need more info"}, 
+        {"SHERMAN'S CAMP IS CRAWLIN","Sherman's Camp Is Crawling OR ends Lost Lake run - Unsure, need more info"}, // Moves from No Place Else To Go - Sherman's Camp Is Crawling OR ends Lost Lake run
+        {"I NEED YOUR HELP","I Need Your Help - Unsure, need more info"}, // Moves from Sherman's Camp Is Crawling - I Need Your Help
         {"SEARCHING FOR LISA","Searching For Lisa - Unsure, need more info"},
         {"NOW YOU SEE IT","Now You See It - Unsure, need more info"},
         {"PLAYING ALL NIGHT","Playing All Night - Unsure, need more info"},
         {"WITH OTHER MEN'S BLOOD","With Other Men's Blood - Unsure, need more info"},
         {"IT'S ON A MISSION","It's On A Mission - Unsure, need more info"},
+        // Return to Iron Mikes Camp is called here, but its called for a side quest potentially a bunch of times so best not to track it
         {"A GODDAMN WAR ZONE","A Goddamn War Zone - Unsure, need more info"},
         {"FLOW LIKE BURIED RIVERS","Flow Like Buried Rivers - Unsure, need more info"},
         {"YOU SEE WHAT THEY DID","You See What They Did - Unsure, need more info"},
         {"DO YOU HAVE MY BACK?","Do You Have My Back? - Unsure, need more info"},
+        //The next two splits can be done in either order
         {"ON HEROD'S BIRTHDAY","On Herod's Birthday - Unsure, need more info"},
         {"SEEDS FOR THE SPRING","Seeds For The Spring - Unsure, need more info"},
         {"I GOT A JOB FOR YOU","I Got A Job For You - Unsure, need more info"},
@@ -147,43 +152,7 @@ startup
         {"RIDING NOMAD AGAIN","Riding Nomad Again - Unsure, need more info"},
         {"MAYDAY! MAYDAY!","Mayday! Mayday! - Unsure, need more info"},
         {"NOT FROM AROUND HERE","Not From Around Here - Unsure, need more info"},
- // Start of Wizard Island
-        {"WE'RE FIGHTING A WAR","We're Fighting A War - Unsure, need more info"}, // Final split for Diamond Lake
-		{"PROVE IT TO ME","Prove It To Me - Unsure, need more info"},
-		{"DRIVEN TO EXTINCTION","Driven To Extinction - Unsure, need more info"},
-		{"DON'T GIVE ME ORDERS","Don't Give Me Orders - Unsure, need more info"},
-		{"A TARGET ON THEIR BACKS","A Target On Their Backs - Unsure, need more info"},
-		{"I DON'T HAVE A PIC","I Don't Have A Pic - Unsure, need more info"},
-		{"A WAR WE CAN WIN","A War We Can Win - Unsure, need more info"},
-		{"KEEPING SOUVENIRS","Keeping Souvenirs - Unsure, need more info"},
-		{"I KNOW THINGS ARE STRANGE","I Know Things Are Strange - Unsure, need more info"},
-		{"AFRAID OF A LITTLE COMPET","Afraid Of A Little Competition - Unsure, need more info"},
-		{"I'VE HAD BETTER DAYS","I've Had Better Days - Unsure, need more info"},
-		{"I TRIED TO HIT THAT ONCE","I Tried To Hit That Once - Unsure, need more info"},
-		{"YOU GOT THE WRONG GUY","You Got The Wrong Guy - Unsure, need more info"},
-		{"CAN I ASK YOU SOMETHING?","Can I Ask You Something - Unsure, need more info"},
-		{"SO MANY OF THEM","So Many Of Them - Unsure, need more info"},
-		{"YOU COULDN'T STOP SHAKING","You Couldn't Stop Shaking - Unsure, need more info"},
-		{"YOU CAN'T BE REPLACED","You Can't Be Replaced - Unsure, need more info"},
-		{"WHAT KEPT ME GOING","What Kept Me Going - Unsure, need more info"},
-		{"I KNEW THESE PEOPLE","I Knew These People - Unsure, need more info"},
-		{"EXPECT THE WORST","Expect The Worst - Unsure, need more info"},
-		{"WE COULDN'T TAKE THE RISK","We Couldn't Take The Risk - Unsure, need more info"},
-		{"MY EYES HAVE BEEN OPENED","My Eyes Have Been Opened - Unsure, need more info"},
-		{"I DON'T WANNA HANG","I Don't Wanna Hang - Unsure, need more info"},
-		{"THIS COULD BE IT","This Could Be It - Unsure, need more info"},
-		{"YOU ALONE I HAVE SEEN","You Alone I Have Seen - Unsure, need more info"},
-		{"HOW FAR WE'VE FALLEN","How Far We've Fallen - Unsure, need more info"},
-		{"WHAT IT TAKES TO SURVIVE","What It Takes To Survive - Unsure, need more info"},
-		{"THE ANARCHIST SPY","The Anarchist Spy - Unsure, need more info"},
-		{"SHADOW OF DEATH","Shadow Of Death - Unsure, need more info"},
-		{"ASCENDING FROM THE UNDERW","Ascending From The Underworld - Unsure, need more info"},
-		{"KEEP THEM SAFE","Keep Them Safe - Unsure, need more info"},
-		{"THE LAST OF 'EM","The Last Of 'Em - Unsure, need more info"},
-		{"NOSE DOWN, THEY FEED YA","Nose Down, They Feed Ya - Unsure, need more info"},
-		{"I'LL SAVE SOME FOR YOU","I'll Save Some For You - Unsure, need more info"},
-		{"YOU CAN'T DO THIS ALONE","You Can't Do This Alone - Unsure, need more info"},
-		{"FOR AN OUTLAW BIKER","For An Outlaw Biker - Unsure, need more info"},
+        {"WE'RE FIGHTING A WAR","We're Fighting A War - Unsure, need more info"},
 	};
 	
 // split on specified objectives
