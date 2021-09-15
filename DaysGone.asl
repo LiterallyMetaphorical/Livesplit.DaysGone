@@ -8,7 +8,7 @@ state("DaysGone")
 //  string50 objective : 0x42906B8, 0x28, 0xBA0, 0x210, 0;
 //  byte menuState : 0x449D27C;
 
-    byte loading : 0x0452B710, 0x1E4;
+    int loading : 0x04529E68;
     string50 objective : 0x0428C6F8, 0x28, 0xBA0, 0x210, 0x0;
     byte menuState : 0x449763C;
 }
@@ -165,13 +165,13 @@ startup
 
 start
 {
-    return (current.menuState == 1 && current.loading == 255);
+    return (current.menuState == 1 && current.loading == 0);
 }
 
 update
 {
     //tells isLoading to look for the value of 0
-        vars.loading = current.loading == 255;
+        vars.loading = current.loading == 0;
 
     //creates the text component if the quest state option is selected
         	    if (settings["quest_state"]) 
